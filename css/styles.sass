@@ -975,7 +975,12 @@ body
   #video
     text-align: center
     iframe
+      width: 840px
+      height: 472px
       box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.32)
+      @media (max-width: 840px)
+        width: 100vw
+        height: 56vw
 #block_order
   position: relative
   .wrapper
