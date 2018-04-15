@@ -1119,6 +1119,11 @@ body .accordion_header {
   top: 0;
   z-index: 998; }
 
+#block_video #video {
+  text-align: center; }
+  #block_video #video iframe {
+    box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.32); }
+
 #block_order {
   position: relative; }
   #block_order .wrapper {
